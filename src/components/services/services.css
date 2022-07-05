@@ -1,0 +1,103 @@
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right bottom,#0E185F,#2FA4FF,#0E185F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass{
+    position: inherit;
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-top: none;
+    border-left: none;
+    
+    border-radius: 10px 10px 10px 10px;
+    width: 95%;
+    height: 90vh;
+    background: linear-gradient(to right top,rgba(255,255,255,0.3),rgba(0,255,171, 0.3));
+    backdrop-filter: blur(2px);
+    z-index: 2;  
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background-image: linear-gradient(to top left,rgba(39, 153, 219,0.8),rgba(39, 153, 219,0.8),rgba(39, 153, 219,0.8),rgba(192, 183, 248,0.8),rgba(192, 183, 248,0.8));
+}
+.circle1{
+    
+    width:300px;
+    height:300px;
+    left:50%;
+    bottom:50%;
+}
+.circle2{
+   
+    left: 15%;
+    bottom: 10%;
+    width:250px;
+    height: 250px;
+}
+.circle3{
+    left: 90%;
+    bottom: 10%;
+    width:150px;
+    height:150px;
+}
+.circle4{
+    left: 5%;
+    bottom: 90%;
+    width:150px;
+    height: 150px;
+}
+.about-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.text{
+    background: linear-gradient(to right top,rgba(255,255,255,0.3),rgba(0,255,171, 0.3));
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 2%;
+    
+}
+.card{
+    width: 300px;
+    margin-top: 2%;
+    margin: 1%;
+    margin-left: 50px;
+    background: linear-gradient(to right top,rgba(255,255,255,0.3),rgba(0,255,171, 0.3));
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-top: none;
+    border-left: none;
+
+}
+img{
+    width: 200px;
+    
+    border-radius: 10px 10px 10px 10px;
+
+}
