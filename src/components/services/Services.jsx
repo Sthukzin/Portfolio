@@ -1,11 +1,11 @@
-import "./About.css";
+import "./services.css";
 import React from "react";
 import Nav from "../nav/Nav";
 import Collaboration from "../../assets/collaborating.jpg";
 
-const About = () => {
+const Services = () => {
   return (
-    <div className="container" id="about">
+    <div className="container" id="services">
       <Nav />
       <div className="glass">
         <div className="glass-container">
@@ -57,4 +57,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Services;

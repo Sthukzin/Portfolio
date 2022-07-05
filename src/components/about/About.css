@@ -1,4 +1,4 @@
-.container{
+.aboutContainer{
     position: relative;
     height: 100vh;
     width: 100%;
@@ -6,20 +6,34 @@
     justify-content: center;
     align-items: center;
 }
-.glass{
+.aboutGlass{
     position: inherit;
     border: 2px;
     border-style: solid;
     border-color: blue;
     border-top: none;
     border-left: none;
-    
     border-radius: 10px 10px 10px 10px;
     width: 95%;
     height: 90vh;
     background: linear-gradient(to right top,rgba(255,255,255,0.3),rgba(0,255,171, 0.3));
     backdrop-filter: blur(2px);
-    z-index: 2;  
-  
+    z-index: 2;
     justify-content: space-around;
+}
+.aboutHeader{
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.aboutText{
+    background: linear-gradient(to right top,rgba(255,255,255,0.3),rgba(0,255,171, 0.3));
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
 }
