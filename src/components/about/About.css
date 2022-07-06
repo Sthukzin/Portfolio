@@ -21,13 +21,12 @@
     z-index: 2;
     justify-content: space-around;
     left: 2.5%;
+    top: 5%;
 }
 .aboutHeader{
     display: flex;
     justify-content: center;
-    padding-top: 4%;
-  
-   
+    padding-top: 2%;
 }
 .aboutText{
     background: linear-gradient(to right top,rgba(255,255,255,0.3),rgba(0,255,171, 0.3));
@@ -41,6 +40,5 @@
 }
 .aboutImage{
     width: 300px;
-    
     border-radius: 10px 10px 10px 10px;
 }
