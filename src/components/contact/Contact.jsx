@@ -7,9 +7,9 @@ const Contact = () => {
     <div className="contactContainer" id="contact">
     <Nav />
     <div className="contactGlass">
-      <div className="contactGlass-container">
+      <div className="contactGlassContainer">
         <h1 className="contactHeader">Contact</h1>
-        <div className="contactText">
+        <div className="contactForm">
         
         <form action="">
          <div className="inputGroup">
@@ -28,10 +28,10 @@ const Contact = () => {
          </div>
 
          <div className="inputGroup">
-          <textarea name="" id="message" cols="8" rows="10"></textarea>
+          <textarea  id="message" rows="7" required></textarea>
           <label htmlFor="message">Your Message</label>
          </div>
-         <button type="submit">Submit</button>
+         <button type="submit">SUBMIT</button>
 
         </form>
         </div>

@@ -14,9 +14,9 @@ const hero = () => {
             <br />
             
           </div>
-          <div className="button" >
-        <button className="button1">More About Me</button>
-        <button className="button2">Download CV</button></div>
+          <div className="buttons" >
+        <button className="">More About Me</button>
+        <button className="">Download CV</button></div>
           <div className="profile-image">
             <img src={Profile} alt="" />
           </div>

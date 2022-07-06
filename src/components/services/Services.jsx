@@ -22,6 +22,7 @@ const Services = () => {
             <div className="card card1">
               <div>
                 <img className="cardImage" src={Collaboration} alt="" />
+                <h4>Web Development</h4>
               </div>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Explicabo aut laboriosam, similique repellendus modi saepe. Lorem
@@ -31,6 +32,7 @@ const Services = () => {
             <div className="card card2">
               <div>
                 <img className="cardImage" src={Collaboration} alt="" />
+                <h4>Web Development</h4>
               </div>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Explicabo aut laboriosam, similique repellendus modi saepe. Lorem
@@ -40,6 +42,7 @@ const Services = () => {
             <div className="card card3">
               <div>
                 <img className="cardImage" src={Collaboration} alt="" />
+                <h4>Web Development</h4>
               </div>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Explicabo aut laboriosam, similique repellendus modi saepe. Lorem
