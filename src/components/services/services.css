@@ -57,7 +57,7 @@
     width:150px;
     height: 150px;
 }
-.about-header{
+.servicesHeader{
     display: flex;
     justify-content: center;
     margin-top: 3%;
@@ -95,7 +95,7 @@
     border-left: none;
 
 }
-img{
+.cardImage{
     width: 200px;
     
     border-radius: 10px 10px 10px 10px;

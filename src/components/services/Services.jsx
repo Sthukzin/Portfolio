@@ -9,7 +9,7 @@ const Services = () => {
       <Nav />
       <div className="glass">
         <div className="glass-container">
-          <h1 className="about-header">Services</h1>
+          <h1 className="servicesHeader">Services</h1>
           <div className="text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             consequatur saepe natus quis? Quia quae repellat aliquam et
@@ -21,7 +21,7 @@ const Services = () => {
           <div className="cards">
             <div className="card card1">
               <div>
-                <img src={Collaboration} alt="" />
+                <img className="cardImage" src={Collaboration} alt="" />
               </div>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Explicabo aut laboriosam, similique repellendus modi saepe. Lorem
@@ -30,7 +30,7 @@ const Services = () => {
             </div>
             <div className="card card2">
               <div>
-                <img src={Collaboration} alt="" />
+                <img className="cardImage" src={Collaboration} alt="" />
               </div>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Explicabo aut laboriosam, similique repellendus modi saepe. Lorem
@@ -39,7 +39,7 @@ const Services = () => {
             </div>
             <div className="card card3">
               <div>
-                <img src={Collaboration} alt="" />
+                <img className="cardImage" src={Collaboration} alt="" />
               </div>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Explicabo aut laboriosam, similique repellendus modi saepe. Lorem

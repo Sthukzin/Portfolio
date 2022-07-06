@@ -1,5 +1,6 @@
 .aboutContainer{
     position: relative;
+    
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(to right bottom,#0E185F,#2FA4FF,#0E185F);
@@ -22,7 +23,6 @@
     justify-content: space-around;
 }
 .aboutHeader{
-    position: inherit;
     display: flex;
     justify-content: center;
     margin-top: 3%;
@@ -36,4 +36,9 @@
     justify-content: center;
     margin: auto;
     margin-top: 2%;
+}
+.aboutImage{
+    width: 300px;
+    
+    border-radius: 10px 10px 10px 10px;
 }

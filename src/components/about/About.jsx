@@ -7,9 +7,9 @@ const About = () => {
   return (
     <div className="aboutContainer" id="about">
     <Nav />
-    <div className="aboutglass">
+    <div className="aboutGlass">
       <div className="aboutGlass-container">
-        <h1 className="about-header">About</h1>
+        <h1 className="aboutHeader">About</h1>
         <div className="aboutText">
          <div> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
           consequatur saepe natus quis? Quia quae repellat aliquam et
@@ -25,8 +25,8 @@ const About = () => {
           unde deserunt! Porro non minima molestiae rerum veritatis rem,
           alias, provident asperiores inventore cumque, dignissimos corporis?
           </div>
-          <div className="cards">
-         <img src={ProfilePic} alt="" />
+          <div className="proPic">
+         <img className='aboutImage' src={ProfilePic} alt="" />
         </div>
         </div>
       
